@@ -1,0 +1,35 @@
+footer{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 70px;
+    height: 38px;
+    border-top: 1px solid rgb(218, 218, 218);
+}
+.Messanger,.User{
+    width: 24px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.Reels{
+    width: 20px;
+    cursor: pointer;
+}
+.New-Post{
+    width: 26px;
+    cursor: pointer;
+}
+.Explore{
+    width: 36px;
+    cursor: pointer;
+}
+.Home{
+    width: 20px;
+    cursor: pointer;
+}
